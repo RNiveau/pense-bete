@@ -1,6 +1,7 @@
 List all topic:
 ---------------
 /opt/kafka/bin/kafka-topics.sh --list --zookeeper kaf1:2181,kaf2:2181,kaf3:2181
+
 /opt/kafka/bin/kafka-topics.sh --describe --zookeeper kaf1:2181,kaf2:2181,kaf3:2181
 
 Delete topic:
@@ -10,16 +11,19 @@ Delete topic:
 Create topic:
 -------------
 /opt/kafka/bin/kafka-topics.sh --zookeeper kaf1:2181,kaf2:2181,kaf3:2181 --create --topic collectd --partitions 1 --replication-factor 1 --if-not-exists
+
 /opt/kafka/bin/kafka-topics.sh --zookeeper kaf1:2181,kaf2:2181,kaf3:2181 --create --topic collectd --partitions 10 --replication-factor 2 --config retention.bytes=1074000000 --config segment.bytes=105000000 --if-not-exists
 
 Consumer / producer:
 --------------------
 /opt/kafka/bin/kafka-console-consumer.sh --zookeeper kaf1:2181,kaf2:2181,kaf3:2181 --topic mytopic
+
 /opt/kafka/bin/kafka-console-producer.sh --broker-list kaf1:9092 --topic mytopic
 
 How to know offset:
 -------------------
 Old version: /opt/kafka/bin/kafka-run-class.sh kafka.tools.ConsumerOffsetChecker --zookeeper localhost:2181 --group logstash_collectd
+
 
 New version: /opt/kafka/bin/kafka-consumer-groups.sh --bootstrap-server localhost:9092 --group IMPORT_SERVICE_PLACES --describe --new-consumer
 
@@ -36,15 +40,24 @@ Reassignment partitions:
 Very important configuration:
 -----------------------------
 auto.create.topics.enable=false
+
 delete.topic.enable=false
+
 log.dir=
+
 log.retention.hours=744
+
 log.retention.minutes=44640
+
 log.roll.hours=24
+
 offsets.retention.check.interval.ms=600000
+
 offsets.retention.minutes=45000
+
 offsets.topic.replication.factor=3
-zookeeper.connect
+
+zookeeper.connect=
 
 
 
