@@ -33,6 +33,20 @@ Reassignment partitions:
 
 /opt/kafka/bin/kafka-reassign-partitions.sh --zookeeper hubkaf1-ppd:2181 --generate --topics-to-move-json-file /tmp/topics-to-move.json --broker-list 1001,1003
 
+Very important configuration:
+-----------------------------
+auto.create.topics.enable=false
+delete.topic.enable=false
+log.dir=
+log.retention.hours=744
+log.retention.minutes=44640
+log.roll.hours=24
+offsets.retention.check.interval.ms=600000
+offsets.retention.minutes=45000
+offsets.topic.replication.factor=3
+zookeeper.connect
+
+
 
 Client zookeeper:
 -----------------
