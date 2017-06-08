@@ -29,7 +29,9 @@ New version: /opt/kafka/bin/kafka-consumer-groups.sh --bootstrap-server localhos
 
 List group id:
 --------------
-/opt/kafka/bin/kafka-consumer-groups.sh --zookeeper localhost:2181 --list
+Old version: /opt/kafka/bin/kafka-consumer-groups.sh --zookeeper localhost:2181 --list
+
+New version: /opt/kafka/bin/kafka-consumer-groups.sh --bootstrap-server localhost:9092 --list --new-consumer
 
 Reassignment partitions:
 ------------------------
