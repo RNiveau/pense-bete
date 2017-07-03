@@ -72,3 +72,9 @@ Memory dump: jmap -dump:format=b,file=cheap.bin 60391
 Thread dump: jstack 10794 > /tmp/thread-start.tdump
 
 Classloader dump: jmap -clstats 5425
+
+
+Ps with tree:
+=============
+
+ps axjf
