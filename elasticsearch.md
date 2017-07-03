@@ -1,11 +1,11 @@
 Get cluster health:
-===================
+-------------------
 
-http://localhost:9200/_cluster/health?pretty=true
+curl http://localhost:9200/_cluster/health?pretty=true
 
 
 Assign a shard manually:
-========================
+------------------------
 
 ```
 curl -XPOST 'localhost:9200/_cluster/reroute' -d '{
