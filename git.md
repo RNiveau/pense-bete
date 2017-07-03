@@ -5,6 +5,6 @@ Interactif rebase to rewrite commits historic:
 
 
 Cancel last commit:
-===================
+-------------------
 
 git reset HEAD~
