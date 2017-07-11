@@ -13,3 +13,9 @@ Change screenshot location:
 defaults write com.apple.screencapture location /path/
 
 killall SystemUIServer
+
+
+Install bash 4:
+---------------
+
+http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/
