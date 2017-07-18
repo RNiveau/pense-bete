@@ -20,3 +20,8 @@ curl -XPOST 'localhost:9200/_cluster/reroute' -d '{
         ]
 }'
 ```
+
+List all nodes:
+---------------
+
+curl http://localhost:9200/_nodes
