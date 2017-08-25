@@ -57,6 +57,11 @@ List repo: yum repolist
 Find dependencies: rpm -qpR python-setuptools-30.2.0-1.noarch.rpm
 
 
+Apt commands:
+-------------
+Get version available in repo: apt-cache madison jenkins
+
+
 
 Threads number for a pid:
 -------------------------
