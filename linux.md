@@ -81,3 +81,8 @@ Ps with tree:
 =============
 
 ps axjf
+
+How to know os version on ubuntu:
+=================================
+
+lsb_release -a
