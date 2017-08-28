@@ -91,3 +91,10 @@ How to know os version on ubuntu:
 =================================
 
 lsb_release -a
+uname -a
+
+Use fpm to generate package:
+============================
+
+fpm  -t deb -s dir -p . --name jenkinspython-api -v 0.3.5  jenkinsapi-0.3.5
+
