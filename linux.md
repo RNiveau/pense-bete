@@ -91,6 +91,7 @@ How to know os version on ubuntu:
 ---------------------------------
 
 lsb_release -a
+
 uname -a
 
 Use fpm to generate package:
