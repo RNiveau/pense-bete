@@ -8,6 +8,11 @@ lsblk
 
 another usefull tools: http://www.binarytides.com/linux-command-check-disk-partitions/
 
+How to find partition id:
+-------------------------
+
+blkid /dev/sdc1
+
 
 Operation about logical group and lvm:
 --------------------------------------
