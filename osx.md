@@ -19,3 +19,8 @@ Install bash 4:
 ---------------
 
 http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/
+
+Install GNU commands:
+---------------------
+
+brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt
