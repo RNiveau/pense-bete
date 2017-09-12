@@ -105,3 +105,7 @@ Use fpm to generate package:
 
 fpm  -t deb -s dir -p . --name jenkinspython-api -v 0.3.5  jenkinsapi-0.3.5
 
+Get public key from private ssh key:
+------------------------------------
+
+ssh-keygen -y -f ~/.ssh/id_rsa
