@@ -1,33 +1,3 @@
-How to know filesystem of disk:
--------------------------------
-fsck -N /dev/sda
-
-How to know mapping between disk and partitions:
-------------------------------------------------
-lsblk
-
-another usefull tools: http://www.binarytides.com/linux-command-check-disk-partitions/
-
-How to find partition id:
--------------------------
-
-blkid /dev/sdc1
-
-
-Operation about logical group and lvm:
---------------------------------------
-vgdisplay
-
-vgscan
-
-create lvm http://www.thegeekstuff.com/2010/08/how-to-create-lvm
-
-
-Formating partition:
---------------------
-mkfs.ext4 /dev/sdb1
-
-
 Release memory:
 ---------------
 http://wiki.tuxunix.com/index.php/Liberer_de_la_m%C3%A9moire_sous_Linux
@@ -50,23 +20,6 @@ Open port:
 lsof -i -P | grep -i "listen"
 
 lsof -i  -P -n
-
-Rpm commands:
--------------
-List files in rpm: rpm -ql collectd
-
-List rpm: rpm -qa
-
-List repo: yum repolist
-
-Find dependencies: rpm -qpR python-setuptools-30.2.0-1.noarch.rpm
-
-
-Apt commands:
--------------
-Get version available in repo: apt-cache madison jenkins
-
-Get version installed in host: dpkg -s haproxy
 
 
 Threads number for a pid:
