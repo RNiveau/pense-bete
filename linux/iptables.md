@@ -6,4 +6,4 @@ iptables -L
 Delete rule:
 ------------
 
-iptables -D <chain> <position>
+iptables -D [chain] [position]
