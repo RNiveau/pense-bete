@@ -15,3 +15,8 @@ List jobs:
 List all jobs: list jobs
 
 List specific job: list jobid=14157
+
+Cancel job:
+-----------
+
+cancel jobid=14186
