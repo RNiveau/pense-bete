@@ -62,3 +62,8 @@ Get public key from private ssh key:
 ------------------------------------
 
 ssh-keygen -y -f ~/.ssh/id_rsa
+
+Generate a ssh key:
+-------------------
+
+ssh-keygen -t rsa -b 4096
