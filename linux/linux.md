@@ -14,6 +14,7 @@ https://openmaniak.com/fr/tcpdump.php
 
 tcpdump  -A -i  eno16777984  -w /tmp/output
 
+Capture only some flags: tcpdump "tcp[tcpflags] & (tcp-syn|tcp-ack) != 0"
 
 Open port:
 ----------
