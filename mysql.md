@@ -14,4 +14,5 @@ Activate slow_query_log:
 ------------------------
 
 set global slow_query_log = ON;
+
 set global long_query_time=39;
