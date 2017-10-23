@@ -26,3 +26,7 @@ create lvm http://www.thegeekstuff.com/2010/08/how-to-create-lvm
 Formating partition:
 --------------------
 mkfs.ext4 /dev/sdb1
+
+Check health disk:
+------------------
+ smartctl -t short|long /dev/sdb
