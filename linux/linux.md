@@ -68,3 +68,9 @@ Generate a ssh key:
 -------------------
 
 ssh-keygen -t rsa -b 4096
+
+
+List all networks interfaces:
+-----------------------------
+
+ls /sys/class/net/
