@@ -30,3 +30,7 @@ mkfs.ext4 /dev/sdb1
 Check health disk:
 ------------------
  smartctl -t short|long /dev/sdb
+
+Get disk uuid:
+--------------
+ls -l /dev/disk/by-uuid
