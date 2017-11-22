@@ -21,3 +21,7 @@ Show innodb status:
 -------------------
 
 SHOW ENGINE INNODB STATUS
+
+Show transactions:
+------------------
+select trx_id, trx_mysql_thread_id, trx_started FROM information_schema.innodb_trx;
