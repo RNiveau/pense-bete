@@ -25,3 +25,5 @@ SHOW ENGINE INNODB STATUS
 Show transactions:
 ------------------
 select trx_id, trx_mysql_thread_id, trx_started FROM information_schema.innodb_trx;
+
+useful link: https://stackoverflow.com/questions/13148630/how-do-i-find-which-transaction-is-causing-a-waiting-for-table-metadata-lock-s
