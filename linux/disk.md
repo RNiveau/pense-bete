@@ -34,3 +34,8 @@ Check health disk:
 Get disk uuid:
 --------------
 ls -l /dev/disk/by-uuid
+
+Raid setup:
+-----------
+
+https://raid.wiki.kernel.org/index.php/RAID_setup
