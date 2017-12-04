@@ -24,3 +24,8 @@ Install GNU commands:
 ---------------------
 
 brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt
+
+Flush dns:
+----------
+
+sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache
