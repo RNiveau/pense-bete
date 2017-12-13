@@ -74,3 +74,8 @@ List all networks interfaces:
 -----------------------------
 
 ls /sys/class/net/
+
+Flush dns:
+----------
+
+rndc flush
