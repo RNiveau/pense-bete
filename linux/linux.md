@@ -79,3 +79,8 @@ Flush dns:
 ----------
 
 rndc flush
+
+Write to haproxy:
+-----------------
+
+echo "show info;show stat" | nc -U /var/run/haproxy.sock
