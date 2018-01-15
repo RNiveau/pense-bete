@@ -10,6 +10,11 @@ Find the master:
 
 show slave status;
 
+Find the current position of the master:
+----------------------------------------
+
+show master status
+
 Activate slow_query_log:
 ------------------------
 
