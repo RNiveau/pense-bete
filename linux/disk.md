@@ -22,6 +22,11 @@ vgscan
 
 create lvm http://www.thegeekstuff.com/2010/08/how-to-create-lvm
 
+vgextend /dev/vgname /dev/sdaX         # this extends the volume group
+
+lvextend -l +100%FREE /dev/vgname/root # this extends the LVM
+
+resize2fs /dev/vgname/root             # this extends the filesystem
 
 Formating partition:
 --------------------
