@@ -25,3 +25,28 @@ List all nodes:
 ---------------
 
 curl http://localhost:9200/_nodes
+
+List indices:
+-------------
+
+curl 'localhost:9200/_cat/indices?format=json&pretty=true'
+
+curl 'localhost:9200/_cat/indices'
+
+Snapshot:
+---------
+```
+Create snapshot repository:
+curl localhost:9200/_snapshot/backup -X PUT -d '{"type": "fs", "settings": {"location": "/data/backup/elasticsearch/es_backup"}}'
+
+Create the snapshot:
+curl -X PUT 'localhost:9200/_snapshot/backup/snapshot_1?wait_for_completion=true'
+
+Close indices:
+curl -X POST localhost:9200/fieldheuristic/_close
+
+Restore:
+curl -X POST localhost:9200/_snapshot/backup/snapshot_1/_restore
+```
+
+
