@@ -42,3 +42,5 @@ Useful commands:
 ----------------
 
 select THREAD_ID,name,PROCESSLIST_STATE,PROCESSLIST_INFO from performance_schema.threads;
+
+show open tables where in_use>0;
