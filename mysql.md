@@ -37,3 +37,8 @@ Check auto increment:
 ---------------------
 
 show variables like 'auto_increment%';
+
+Useful commands:
+----------------
+
+select name,PROCESSLIST_STATE,PROCESSLIST_INFO from performance_schema.threads;
