@@ -41,4 +41,4 @@ show variables like 'auto_increment%';
 Useful commands:
 ----------------
 
-select name,PROCESSLIST_STATE,PROCESSLIST_INFO from performance_schema.threads;
+select THREAD_ID,name,PROCESSLIST_STATE,PROCESSLIST_INFO from performance_schema.threads;
