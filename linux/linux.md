@@ -47,6 +47,11 @@ Ps with tree:
 
 ps axjf
 
+Ps with custom format:
+----------------------
+
+ps e -u alksv -o command,vsize,rss,%mem,size
+
 How to know os version on ubuntu:
 ---------------------------------
 
