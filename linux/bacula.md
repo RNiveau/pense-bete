@@ -7,6 +7,7 @@ Get status:
 ---------------
 
 All status: status dir
+
 Status specifc kind of jobs: status
 
 List jobs:
