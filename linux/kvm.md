@@ -27,3 +27,8 @@ Increase memory
 virsh setmaxmem <vm_name> <memsize> --config
   
 virsh setmem <vm_name> <memsize> --config
+
+Move vm from one host to another
+--------------------------------
+
+https://serverfault.com/questions/434064/correct-way-to-move-kvm-vm
