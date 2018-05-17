@@ -32,3 +32,10 @@ Move vm from one host to another
 --------------------------------
 
 https://serverfault.com/questions/434064/correct-way-to-move-kvm-vm
+
+Delete vm
+---------
+
+force shutdown: virsh destroy host
+
+virsh undefine host
