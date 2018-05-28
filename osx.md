@@ -29,3 +29,8 @@ Flush dns:
 ----------
 
 sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache
+
+Show route table:
+-----------------
+
+netstat -nr
