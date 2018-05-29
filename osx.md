@@ -34,3 +34,8 @@ Show route table:
 -----------------
 
 netstat -nr
+
+Add route:
+----------
+
+sudo route add -net 172.32.16.0/20 172.30.3.250
