@@ -6,6 +6,8 @@ jstack -l pid (need jdk)
 Connect jvisualvm to remote
 ---------------------------
 
+USE ORACLE JDK
+
 jstatd  -J-Djava.security.policy=/home/rniveau/jstatd.policy  -p 4242
 
 content of jstatd.policy:
