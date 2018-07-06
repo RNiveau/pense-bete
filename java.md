@@ -17,3 +17,9 @@ grant codebase "file:/usr/java/jdk1.8.0_151/lib/tools.jar" {
 };
 ```
 
+Add jmx
+-------
+
+-Dcom.sun.management.jmxremote.port=9010 -Dcom.sun.management.jmxremote.local.only=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false
+
+Put BEFORE -jar option
