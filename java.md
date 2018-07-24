@@ -6,7 +6,7 @@ jstack -l pid (need jdk)
 Memory dump
 -----------
 
-jmap -dump:format=b,file=<file_name> <pid>
+jmap -dump:format=b,file=<file_name> pid
 
 Connect jvisualvm to remote
 ---------------------------
