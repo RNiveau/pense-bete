@@ -49,4 +49,9 @@ Restore:
 curl -X POST localhost:9200/_snapshot/backup/snapshot_1/_restore
 ```
 
+Useful links:
+-------------
+
+https://www.elastic.co/blog/how-many-shards-should-i-have-in-my-elasticsearch-cluster
+https://www.elastic.co/guide/en/elasticsearch/guide/current/routing-value.html
 
