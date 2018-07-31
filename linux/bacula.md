@@ -21,3 +21,8 @@ Cancel job:
 -----------
 
 cancel jobid=14186
+
+Useful link:
+------------
+
+http://www.bacula.org/2.4.x-manuals/en/main/Bacula_Console.html
