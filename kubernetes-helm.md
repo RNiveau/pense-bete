@@ -3,6 +3,11 @@ Delete with purge release:
 
 helm delete --purge service-auth
 
+Create secret for docker registry:
+----------------------------------
+
+kubectl create secret docker-registry regcred --docker-server= --docker-username=  --docker-password= --docker-email= -n service-auth --dry-run=true -o yaml
+
 In bulk:
 --------
 
