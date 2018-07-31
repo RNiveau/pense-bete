@@ -1,3 +1,8 @@
+Delete with purge release:
+--------------------------
+
+helm delete --purge service-auth
+
 In bulk:
 --------
 
