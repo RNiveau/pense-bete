@@ -8,6 +8,12 @@ Create secret for docker registry:
 
 kubectl create secret docker-registry regcred --docker-server= --docker-username=  --docker-password= --docker-email= -n service-auth --dry-run=true -o yaml
 
+Set default namespace:
+----------------------
+
+kubectl config set-context $(kubectl config current-context) --namespace=
+
+
 In bulk:
 --------
 
