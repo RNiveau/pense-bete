@@ -89,3 +89,9 @@ Write to haproxy:
 -----------------
 
 echo "show info;show stat" | nc -U /var/run/haproxy.sock
+
+
+Add ip address on interface:
+----------------------------
+
+ip address add ip dev ens3
