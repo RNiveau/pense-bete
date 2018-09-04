@@ -1,3 +1,8 @@
+Compile template to watch output:
+---------------------------------
+
+helm template dns-config/ --debug
+
 Delete with purge release:
 --------------------------
 
