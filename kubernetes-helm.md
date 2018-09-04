@@ -13,6 +13,10 @@ Set default namespace:
 
 kubectl config set-context $(kubectl config current-context) --namespace=
 
+Show yaml installed:
+--------------------
+
+helm get manifest release-name
 
 In bulk:
 --------
