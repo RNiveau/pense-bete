@@ -39,3 +39,8 @@ Add route:
 ----------
 
 sudo route add -net 172.32.16.0/20 172.30.3.250
+
+Find which programme listen port:
+---------------------------------
+
+lsof -NP -i:8080
