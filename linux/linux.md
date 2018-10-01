@@ -90,6 +90,10 @@ Write to haproxy:
 
 echo "show info;show stat" | nc -U /var/run/haproxy.sock
 
+Check haproxy configuration:
+----------------------------
+
+/usr/sbin/haproxy -c -f /etc/haproxy/haproxy.cfg
 
 Add ip address on interface:
 ----------------------------
