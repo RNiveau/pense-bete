@@ -39,3 +39,5 @@ Delete vm (don't forget to delete disk after):
 force shutdown: virsh destroy host
 
 virsh undefine host
+
+remove disk: /var/lib/libvirt/images/ppr-oro-tracking-2-disk0.img
