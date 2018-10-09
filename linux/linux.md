@@ -99,3 +99,8 @@ Add ip address on interface:
 ----------------------------
 
 ip address add ip dev ens3
+
+Useful link on tcp parameters:
+------------------------------
+
+https://voipmagazine.wordpress.com/tag/tcp_max_syn_backlog/
