@@ -104,3 +104,8 @@ Useful link on tcp parameters:
 ------------------------------
 
 https://voipmagazine.wordpress.com/tag/tcp_max_syn_backlog/
+
+Find and delete old files:
+--------------------------
+
+find /path/to/files* -mtime +5 -exec rm {} \;
