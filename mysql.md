@@ -38,6 +38,11 @@ Check auto increment:
 
 show variables like 'auto_increment%';
 
+Update password:
+----------------
+
+ALTER USER 'user'@'hostname' IDENTIFIED BY 'newPass';
+
 Useful commands:
 ----------------
 
