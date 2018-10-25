@@ -109,3 +109,9 @@ Find and delete old files:
 --------------------------
 
 find /path/to/files* -mtime +5 -exec rm {} \\;
+
+Journalctl:
+-----------
+
+journalctl -u nginx.service --since today
+
