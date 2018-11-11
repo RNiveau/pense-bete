@@ -6,7 +6,7 @@ sysctl -p
 TCP variables:
 --------------
 
-net.ipv4.tcp_mem => TCP stack memory
+net.ipv4.tcp_mem => TCP stack memory measured in units of the system page size (getconf PAGE_SIZE (4096))
 - first value, init memory
 - second value, system will "garbage" memory when we hit this value
 - third value, max memory: TCP streams and packets start getting dropped until we reach a lower memory usage
