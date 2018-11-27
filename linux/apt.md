@@ -13,3 +13,5 @@ sudo apt-get upgrade       # Strictly upgrades the current packages
 sudo apt-get dist-upgrade  # Installs updates (new ones)
 
 where is installed my package: dpkg -L oracle-jdk
+
+sudo apt-get clean # clean cache
