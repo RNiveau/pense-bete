@@ -115,3 +115,7 @@ Journalctl:
 
 journalctl -u nginx.service --since today
 
+ssh-agent:
+----------
+Launch it: eval \`ssh-agent\`
+
