@@ -119,3 +119,12 @@ ssh-agent:
 ----------
 Launch it: eval \`ssh-agent\`
 
+max process on host:
+--------------------
+
+sysctl kernel.pid_max
+
+how many processes run:
+-----------------------
+
+ps -AL|wc -l
