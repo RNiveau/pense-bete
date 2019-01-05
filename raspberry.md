@@ -7,3 +7,8 @@ Allow ssh:
 ----------
 
 touch /boot/ssh
+
+Take a picture:
+---------------
+
+raspistill -o image.jpg
