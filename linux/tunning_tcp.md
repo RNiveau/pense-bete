@@ -11,6 +11,8 @@ net.ipv4.tcp_mem => TCP stack memory measured in units of the system page size (
 - second value, system will "garbage" memory when we hit this value
 - third value, max memory: TCP streams and packets start getting dropped until we reach a lower memory usage
 
+net.core.somaxconn => max connection in tcp queue
+
 Show sockets memory:
 --------------------
 
