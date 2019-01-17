@@ -24,9 +24,9 @@ virsh setvcpus <vm_name> <vcpu_count> --config
 Increase memory
 ---------------
 
-virsh setmaxmem <vm_name> <memsize> --config
+virsh setmaxmem <vm_name> \<memsize\> --config
   
-virsh setmem <vm_name> <memsize> --config
+virsh setmem <vm_name> \<memsize\> --config
 
 Move vm from one host to another
 --------------------------------
