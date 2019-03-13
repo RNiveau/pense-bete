@@ -128,3 +128,22 @@ how many processes run:
 -----------------------
 
 ps -AL|wc -l
+
+Files limits:
+-------------
+
+ulimit -Sn
+
+1024
+
+ulimit -Hn
+
+1048576
+
+sysctl fs.file-max
+
+fs.file-max = 349217
+
+prlimit --pid 14559
+
+NOFILE     max number of open files                1024      4096
