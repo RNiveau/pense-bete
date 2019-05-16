@@ -2,6 +2,11 @@ Release memory:
 ---------------
 http://wiki.tuxunix.com/index.php/Liberer_de_la_m%C3%A9moire_sous_Linux
 
+List kernel images:
+-------------------
+
+dpkg --list | grep linux-image
+
 
 Kernel messages:
 ----------------
