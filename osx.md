@@ -44,3 +44,8 @@ Find which programme listen port:
 ---------------------------------
 
 lsof -NP -i:8080
+
+Set password to zip:
+--------------------
+
+zip -er
