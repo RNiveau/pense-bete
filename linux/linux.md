@@ -129,6 +129,11 @@ max process on host:
 
 sysctl kernel.pid_max
 
+run  unattended-upgrade manually:
+---------------------------------
+
+sudo unattended-upgrade -d
+
 how many processes run:
 -----------------------
 
