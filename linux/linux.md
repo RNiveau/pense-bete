@@ -148,6 +148,8 @@ http://www.leonardoborda.com/blog/how-to-configure-sysstatsar-on-ubuntudebian/
 
 ps -eo pcpu,pid,user,args | sort -k 1 -r | head -10
 
+strace -cfp 69607
+
 Files limits:
 -------------
 
