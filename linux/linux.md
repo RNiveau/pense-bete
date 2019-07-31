@@ -144,6 +144,8 @@ cpu links:
 
 https://www.cyberciti.biz/tips/how-do-i-find-out-linux-cpu-utilization.html
 
+ps -eo pcpu,pid,user,args | sort -k 1 -r | head -10
+
 Files limits:
 -------------
 
