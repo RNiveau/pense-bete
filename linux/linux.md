@@ -139,6 +139,11 @@ how many processes run:
 
 ps -AL|wc -l
 
+cpu links:
+----------
+
+https://www.cyberciti.biz/tips/how-do-i-find-out-linux-cpu-utilization.html
+
 Files limits:
 -------------
 
