@@ -18,6 +18,11 @@ Set default namespace:
 
 kubectl config set-context $(kubectl config current-context) --namespace=
 
+Show pods with nodes:
+---------------------
+
+kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName
+
 Show yaml installed:
 --------------------
 
