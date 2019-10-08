@@ -83,3 +83,8 @@ curl  -XPUT localhost:8001/apis/apps/v1beta1/namespaces/service-auth/deployments
 
 
 kubectl get pods -o json|jq '.items[].spec.nodeName'
+
+Links:
+------
+
+https://www.replex.io/blog/kubernetes-in-production-the-ultimate-guide-to-monitoring-resource-metrics
