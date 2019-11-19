@@ -16,3 +16,8 @@ Forget resources:
 -----------------
 
 terraform state rm resources
+
+Format files:
+-------------
+
+terraform fmt -recursive -diff
