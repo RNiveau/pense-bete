@@ -8,3 +8,9 @@ Useful ansible.cfg configuration:
 
 [ssh_connection]
 ssh_args=-o ForwardAgent=yes -o ControlMaster=auto -o ControlPersist=60s
+
+End flow:
+---------
+
+meta: end_play
+
