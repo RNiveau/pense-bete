@@ -22,6 +22,8 @@ vgscan
 
 create lvm http://www.thegeekstuff.com/2010/08/how-to-create-lvm
 
+pvresize # if needed to resize partition
+
 vgextend /dev/vgname /dev/sdaX         # this extends the volume group
 
 lvextend -l +100%FREE /dev/vgname/root # this extends the LVM
