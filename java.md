@@ -3,6 +3,11 @@ Thread dump
 
 jstack -l pid (need jdk)
 
+Find max cpu per thread
+-----------------------
+
+https://stackoverflow.com/questions/24028755/how-to-analyze-thread-dumps-in-java-to-minimize-high-cpu-usage
+
 Memory dump
 -----------
 
