@@ -48,4 +48,4 @@ lsof -NP -i:8080
 Set password to zip:
 --------------------
 
-zip -er
+zip -er zip-name dir
