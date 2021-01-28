@@ -14,3 +14,8 @@ Git lg:
 -------
 
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+Checkout remote branch:
+-----------------------
+
+git fetch origin 'remote_branch':'local_branch_name'
