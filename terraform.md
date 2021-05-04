@@ -21,3 +21,8 @@ Format files:
 -------------
 
 terraform fmt -recursive -diff
+
+Provider lock on linux and mac:
+-------------------------------
+
+terraform providers lock -platform=darwin_amd64  -platform=linux_amd64
