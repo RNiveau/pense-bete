@@ -28,6 +28,8 @@ set global slow_query_log = ON;
 
 set global long_query_time=39;
 
+SET GLOBAL slow_query_log_file = '/var/log/mysql/mysql-slow.log';
+
 Show innodb status:
 -------------------
 
